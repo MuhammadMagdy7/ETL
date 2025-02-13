@@ -53,7 +53,7 @@ PASSWORD=yourpassword
 |-------------------|--------------|-------------|
 | video_id         | NVARCHAR(100) | Unique video identifier |
 | title           | NVARCHAR(255) | Video title |
-| category_id     | INT          | Category reference |
+| category_id     | NVARCHAR(100) | Category reference |
 | views           | INT          | View count |
 | likes           | INT          | Like count |
 | dislikes        | INT          | Dislike count |
